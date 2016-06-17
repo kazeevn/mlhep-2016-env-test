@@ -1,0 +1,8 @@
+jupyterhub==0.6.1
+plotly==1.8.6
+rep==0.6.5
+ipyparallel==5.1.0
+hep_ml==0.4.0
+-e git+https://github.com/Theano/Theano.git@d9028c7b27a3bb35c7134e6d34124af68d5f6adf#egg=theano
+-e git+https://github.com/Lasagne/Lasagne.git@b2f42fdfc8a53243c0776cf06fc2879ad3b201a1#egg=lasagne
+-e git+https://github.com/yandexdataschool/AgentNet.git@f091376a05e89d6868720bfcc3cd641a69080873#egg=agentnet
