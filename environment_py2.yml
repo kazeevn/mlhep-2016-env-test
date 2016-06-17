@@ -1,0 +1,13 @@
+jupyter=1.0.0
+jupyter_client=4.2.2
+jupyter_console=4.1.1
+jupyter_core=4.1.0
+ipython=4.0.0
+pip=8.1.1
+numpy=1.10.4
+pandas=0.17.0
+scipy=0.17.0
+matplotlib=1.4.3
+scikit-learn=0.16.1
+numexpr=2.5
+pyzmq=14.7.0
