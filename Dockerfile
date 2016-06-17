@@ -6,7 +6,7 @@ RUN /bin/bash --login -c "\
     pip install --upgrade pip && \
     pip install --upgrade jupyter && \
     pip install --upgrade https://github.com/Theano/Theano/archive/master.zip &&\
-    pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip &&\
+    pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip\
     "
 RUN /bin/bash --login -c "\
     source activate jupyterhub_py3 && \ 
@@ -14,7 +14,7 @@ RUN /bin/bash --login -c "\
     pip install rep && \
     pip install root_numpy  && \
     pip install --upgrade https://github.com/Theano/Theano/archive/master.zip &&\
-    pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip &&\
+    pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip\
     "
 
 
